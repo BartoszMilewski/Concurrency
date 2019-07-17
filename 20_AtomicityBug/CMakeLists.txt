@@ -1,0 +1,2 @@
+project(20_AtomicityBug)
+add_executable(20_AtomicityBug AtomicityBug.cpp)

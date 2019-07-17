@@ -1,0 +1,2 @@
+project(15_BankTransfer)
+add_executable(15_BankTransfer BankTransfer.cpp)

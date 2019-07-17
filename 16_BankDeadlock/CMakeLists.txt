@@ -1,0 +1,2 @@
+project(16_BankDeadlock)
+add_executable(16_BankDeadlock BankDeadlock.cpp)

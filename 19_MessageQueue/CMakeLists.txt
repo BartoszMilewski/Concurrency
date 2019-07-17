@@ -1,0 +1,2 @@
+project(19_MessageQueue)
+add_executable(19_MessageQueue MessageQueue.cpp)

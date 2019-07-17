@@ -1,0 +1,2 @@
+project(17_FilePolling)
+add_executable(17_FilePolling FilePolling.cpp)
