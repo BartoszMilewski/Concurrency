@@ -5,7 +5,7 @@
 #include <vector>
 #include <set>
 
-void main()
+int main()
 {
     std::set<std::thread::id> set;
 

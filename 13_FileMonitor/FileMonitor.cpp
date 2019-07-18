@@ -54,7 +54,7 @@ void listDirs(vector<path> paths, FileMonitor & fileSink)
     }
 }
 
-void main()
+int main()
 {
     vector<path> paths;
     for (directory_iterator it("c:\\"); it != directory_iterator(); ++it)

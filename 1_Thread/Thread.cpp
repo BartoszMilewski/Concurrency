@@ -6,7 +6,7 @@ void threadFun()
     std::cout << "Hello from thread!\n";
 }
 
-void main()
+int main()
 {
     std::thread t(threadFun);
     std::cout << "Hello from main!\n";

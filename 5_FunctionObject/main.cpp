@@ -15,7 +15,7 @@ private:
     int _i;
 };
 
-void main()
+int main()
 {
     std::vector<std::thread> threads;
     for (int i = 0; i < 16; ++i)

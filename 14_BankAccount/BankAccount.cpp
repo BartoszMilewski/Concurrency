@@ -55,7 +55,7 @@ void test()
     cout << "Final balance " << acct.balance() << endl;
 }
 
-void main()
+int main()
 {
     test();
 }

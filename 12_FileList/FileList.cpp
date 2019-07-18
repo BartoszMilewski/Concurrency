@@ -39,7 +39,7 @@ vector<string> listDirs(vector<path> const & paths)
     return allFiles;
 }
 
-void main()
+int main()
 {
     vector<path> paths;
     for (directory_iterator it("c:\\"); it != directory_iterator(); ++it)

@@ -1,7 +1,7 @@
 #include <thread>
 #include <iostream>
 
-void main()
+int main()
 {
     std::thread t([]()
     {

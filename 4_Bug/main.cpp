@@ -21,7 +21,7 @@ std::vector<std::thread> spawn()
     return threads;
 }
 
-void main()
+int main()
 {
     std::vector<std::thread> threads;
 #if 1

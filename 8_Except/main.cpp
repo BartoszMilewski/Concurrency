@@ -16,7 +16,7 @@ void fun(std::promise<std::string> && pr)
     }
 }
 
-void main()
+int main()
 {
     std::promise<std::string> pr;
     std::future<std::string> fut = pr.get_future();

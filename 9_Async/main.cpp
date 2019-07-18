@@ -17,7 +17,7 @@ std::string fun(bool flag)
     }
 }
 
-void main()
+int main()
 {
     std::future<std::string> fut = std::async(fun, true);
     std::cout << "Main receiving.\n";

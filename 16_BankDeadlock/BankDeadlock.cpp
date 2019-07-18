@@ -98,7 +98,7 @@ void test()
         fut.get();
 }
 
-void main()
+int main()
 {
     try
     {
